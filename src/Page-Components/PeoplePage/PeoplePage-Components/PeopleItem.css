@@ -1,0 +1,15 @@
+.peopleListItem {
+  width: 550px;
+  border: 1px solid yellow;
+  margin-block: 3em;
+}
+
+.peopleListItem h1 {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .peopleListItem {
+    width: 90%;
+  }
+}

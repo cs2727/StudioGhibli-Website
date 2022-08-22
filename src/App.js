@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import HeaderComponent from './Universal-Component/HeaderComponent';
+import HomePage from './Page-Components/HomePage/HomePage';
+import FilmographyPage from './Page-Components/FilmographyPage/FilmographyPage';
+import PeoplePage from './Page-Components/PeoplePage/PeoplePage';
+import FetchingDataContext from './ContextComponents/FetchingFilmsContext';
+import FetchingPeoplesContext from './ContextComponents/FetchingPeoplesContext';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderComponent />
+      <FetchingDataContext>
+        <FetchingPeoplesContext>
+          <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/Filmography" element={<FilmographyPage />}></Route>
+            <Route path="/People" element={<PeoplePage />}></Route>
+          </Routes>
+        </FetchingPeoplesContext>
+      </FetchingDataContext>
     </div>
   );
 }

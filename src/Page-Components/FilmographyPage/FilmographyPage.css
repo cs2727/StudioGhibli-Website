@@ -1,0 +1,13 @@
+.wrapper {
+  margin-inline: 25em;
+  /* background-color: olive; */
+  background-clip: content-box;
+}
+
+.filmsList {
+  padding-block: 3em;
+  padding-inline: 3em;
+  margin: 0;
+  margin-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
