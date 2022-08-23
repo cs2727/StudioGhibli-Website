@@ -1,4 +1,4 @@
-form {
+.filmDirectorForm {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -7,12 +7,12 @@ form {
   padding: 1em;
 }
 
-label {
+.filmDirectorForm label {
   font-size: 1.1rem;
   text-align: start;
 }
 
-form select {
+.filmDirectorForm select {
   color: black;
   margin-block: 1em;
   width: 200px;
@@ -21,19 +21,19 @@ form select {
 }
 
 @media only screen and (max-width: 1910px) {
-  form {
+  .filmDirectorForm {
     top: 100px;
     left: 50%;
     transform: translate(-50%);
   }
 
-  form select {
+  .filmDirectorForm select {
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  form select {
+  .filmDirectorForm select {
     width: 250px;
   }
 }

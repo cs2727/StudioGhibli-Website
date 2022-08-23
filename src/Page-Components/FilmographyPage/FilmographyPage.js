@@ -35,7 +35,7 @@ export default function FilmographyPage() {
           {/* This is the UnorderedList that will contain our films */}
           <ul className="filmsList">
             {films.map((film) => (
-              <FilmographyItem filmInput={film} />
+              <FilmographyItem filmInput={film} key={film.id} />
             ))}
           </ul>
         </>

@@ -21,7 +21,7 @@ export default function FilmographyDirectors({
   }
 
   return (
-    <form>
+    <form className="filmDirectorForm">
       <label htmlFor="filmDirectors">Choose a film director: </label>
       <select id="directors" onChange={togglingDirector} ref={selectElement}>
         {directorsInput.map((director) => (

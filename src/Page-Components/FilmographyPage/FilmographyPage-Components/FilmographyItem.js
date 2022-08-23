@@ -27,7 +27,7 @@ function FilmographyItem({ filmInput }) {
 
   // JSX
   return (
-    <li key={filmInput.id} className="filmListItem">
+    <li className="filmListItem">
       {/* This div contains img and the buttons */}
       <div className="visualContainer">
         <img src={filmInput.image}></img>

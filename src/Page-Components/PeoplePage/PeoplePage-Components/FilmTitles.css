@@ -1,3 +1,22 @@
-form {
+.filmTitlesForm {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1em;
   z-index: 9;
+}
+
+.filmTitlesForm label {
+  font-size: 1.1rem;
+  text-align: start;
+}
+
+.filmTitlesForm select {
+  color: black;
+  margin-block: 1em;
+  width: 200px;
+  height: 25px;
+  font-size: 1rem;
 }
