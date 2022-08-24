@@ -13,7 +13,9 @@ export default function FilmographyPage() {
   } = useContext(fetchingFilmsContext);
 
   let films;
-  // this will determine which directors films will be shown using the films variable
+
+  // this if statement will only be true if a film Director has been selected and as a result we will filter the
+  // filmsRetrieved arr for the relevant films that were directed by the selected director
   if (filmDirector) {
     films = filmsRetrieved.filter((film) => film.director === filmDirector);
   } else {
@@ -22,8 +24,8 @@ export default function FilmographyPage() {
 
   return (
     <div className="wrapper">
-      <h1>{filmDirector ? filmDirector : 'All'} Films</h1>{' '}
       {/*this is the h1 element telling which directors films are being shown */}
+      <h1>{filmDirector ? filmDirector : 'Studio Ghibli'} Films</h1>{' '}
       {filmsRetrieved ? (
         <>
           {' '}

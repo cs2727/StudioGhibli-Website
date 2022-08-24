@@ -3,12 +3,19 @@ import React, { createContext, useEffect, useState } from 'react';
 export const fetchingFilmsContext = createContext();
 
 function FetchingDataContext(props) {
-  const [filmsRetrieved, setFilmsRetrieved] = useState(false); // this will be responsible for the films
-  const [filmDirectors, setFilmDirectors] = useState([]); // this will be responsible for all the films directors
-  const [filmDirector, setFilmDirector] = useState(''); // this will be responsible for the film director chosen via select element
+  // this filmsRetrieved array will contain all the films that were returned by the http Response of our request
+  const [filmsRetrieved, setFilmsRetrieved] = useState(false);
+
+  // this filmDirectors array will contain all the differing film directors of Studio Ghibli
+  const [filmDirectors, setFilmDirectors] = useState([]);
+
+  // this filmDirector will store a string that will be the film Director selected by the user
+  const [filmDirector, setFilmDirector] = useState('');
+
+  // this filmTitles array will contain all the differing film titles of Studio Ghibli
   const [filmTitles, setFilmTitles] = useState([]);
 
-  // This function is to retrieve all films from Studio Ghibli
+  // This function is to retrieve all films from Studio Ghibli and to set the filmsRetrieved, filmDirectors, and filmTitles state
   function fetchingFilms() {
     fetch('https://ghibliapi.herokuapp.com/films')
       .then((httpResponse) => {
@@ -22,7 +29,8 @@ function FetchingDataContext(props) {
       });
   }
 
-  // This function is to retrieve all the directors of the differing films from Studio Ghibli
+  // This function is to retrieve all the differing directors of films from Studio Ghibli to provide the input for the
+  // select element of the FilmographyDirector Component
   function fetchingFilmDirectors(films) {
     const directorsList = [];
     let setIterable;
@@ -40,7 +48,8 @@ function FetchingDataContext(props) {
     setFilmDirector(director);
   }
 
-  // This function is to retrieve all the differing titles of films from Studio Ghibli
+  // This function is to retrieve all the differing titles of films from Studio Ghibli to provide the input for the
+  // select element of the FilmTitle Component
   function fetchingFilmTitles(films) {
     const filmTitlesList = [];
 

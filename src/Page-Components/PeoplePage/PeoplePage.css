@@ -1,8 +1,8 @@
 .wrapper-2 {
   margin-inline: 20em;
-  background-color: green;
+  /* background-color: green; */
   background-clip: content-box;
-  position: relative;
+  margin-bottom: 2em;
 }
 
 .mainHeader {
@@ -10,6 +10,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 0;
+  padding-block: 0.5em;
   font-size: 2rem;
 }
 
@@ -19,7 +20,9 @@
   flex-flow: wrap;
   justify-content: space-evenly;
   list-style: none;
-  background-color: orange;
+  background-image: url('../../Images/animeSky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 0;
   margin: 0;
@@ -27,7 +30,7 @@
 
 .buttonContainer {
   position: absolute;
-  right: 0;
+  right: 15%;
   bottom: 5px;
 }
 
@@ -37,7 +40,17 @@
   margin-right: 1em;
 }
 
-@media only screen and (max-width: 1050px) {
+.buttonContainer button:hover {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 1850px) {
+  .wrapper-2 {
+    margin-inline: 10em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
   .wrapper-2 {
     margin-inline: 5em;
   }
@@ -47,12 +60,10 @@
   .wrapper-2 {
     margin-inline: 2em;
   }
-}
 
-@media only screen and (max-width: 500px) {
-  .buttonContainer button {
-    height: 20px;
-    width: 50px;
+  /* .buttonContainer {
+    width: 100%;
     margin-right: 0.5em;
-  }
+    right: 0%;
+  } */
 }

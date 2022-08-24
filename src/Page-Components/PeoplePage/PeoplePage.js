@@ -11,8 +11,10 @@ function PeoplePage() {
     peoplesRetrieved,
     filmCharactersRetrieved,
     sortingCharacters,
-  } = useContext(fetchingPeoplesContext); // this variable contains an array with 57 elements/peoples
+  } = useContext(fetchingPeoplesContext);
   const filmsRetrieved = useContext(fetchingFilmsContext).filmsRetrieved;
+
+  // this currentPage will be a integer that will represent the nested arr that needs to be rendered from the peoplesRetrieved arr
   const [currentPage, setCurrentPage] = useState(0);
   const [filmTitle, setFilmTitle] = useState('');
   const buttonContainerElement = useRef();
@@ -57,7 +59,7 @@ function PeoplePage() {
     console.log(title);
   }
 
-  // returning JSX
+  // JSX Code
   return (
     <div className="wrapper-2">
       <h1 className="mainHeader">{filmTitleSelected}</h1>
@@ -70,7 +72,7 @@ function PeoplePage() {
           <ul className="peoplesList">
             {filmCharactersRetrieved
               ? filmCharactersRetrieved.map((person) => {
-                  // this will render only characters from chosen film title
+                  // this will render only characters from chosen film title as if filmCharactersRetrieved will be an arr
                   return (
                     <PeopleItem
                       personInput={person}
@@ -80,7 +82,7 @@ function PeoplePage() {
                   );
                 })
               : peoplesRetrieved[currentPage].map((person) => {
-                  // this will render all films
+                  // this will render all films as filmCharactersRetrived is '' empty string
                   return (
                     <PeopleItem
                       personInput={person}
@@ -93,7 +95,8 @@ function PeoplePage() {
           <div ref={buttonContainerElement} className="buttonContainer">
             {filmCharactersRetrieved
               ? null
-              : peoplesRetrieved.map(() => {
+              : // the buttons will render only if filmCharactersRetrieved is false, i'e an empty string
+                peoplesRetrieved.map(() => {
                   return <button onClick={peopleToRender}>{i++}</button>;
                 })}
           </div>

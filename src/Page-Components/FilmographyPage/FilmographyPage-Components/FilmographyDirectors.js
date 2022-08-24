@@ -8,7 +8,8 @@ export default function FilmographyDirectors({
   const selectElement = useRef();
 
   // this function in the useEffect will be invoked only once this component unmounts, is removed/unrendered and thus we
-  // are setting filmDirector back to an empty string, no director selected and as result all films show again !!
+  // are setting filmDirector back to an empty string, no director selected and as result all films show again once this component
+  //is rendered/mounted again!!
   useEffect(() => {
     return () => settingFilmDirector('');
   }, []);
