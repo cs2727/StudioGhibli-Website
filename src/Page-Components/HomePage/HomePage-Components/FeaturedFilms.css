@@ -1,0 +1,120 @@
+.firstFeaturedFilmContainer,
+.secondFeaturedFilmContainer {
+  display: flex;
+  text-align: start;
+}
+
+.firstFeaturedFilmContainer div,
+.secondFeaturedFilmContainer div {
+  width: 50%;
+}
+
+.featuredFilmImgContainer {
+  display: flex;
+  align-content: flex-start;
+}
+
+.featuredFilmImgContainer img {
+  width: 100%;
+}
+
+.firstFeaturedFilmContextContainer,
+.secondFeaturedFilmContextContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstFeaturedFilmContextContainer {
+  background-color: #165830;
+}
+
+.secondFeaturedFilmContextContainer {
+  background-color: #b95b69;
+}
+
+.firstFeatureFilmInnerContextContainer,
+.secondFeatureFilmInnerContextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  flex-basis: 75%;
+}
+
+.firstFeatureFilmInnerContextContainer h1,
+.secondFeatureFilmInnerContextContainer h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.firstFeatureFilmInnerContextContainer p,
+.secondFeatureFilmInnerContextContainer p {
+  font-size: 1.2rem;
+  margin-bottom: 3em;
+}
+
+.firstFeatureFilmInnerContextContainer button,
+.secondFeatureFilmInnerContextContainer button {
+  background-color: #00a651;
+  height: 40px;
+  width: 110px;
+  border: 0;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1700px) {
+  .firstFeatureFilmInnerContextContainer h1,
+  .secondFeatureFilmInnerContextContainer h1 {
+    font-size: 2.5rem;
+  }
+
+  .firstFeatureFilmInnerContextContainer p,
+  .secondFeatureFilmInnerContextContainer p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .firstFeatureFilmInnerContextContainer h1,
+  .secondFeatureFilmInnerContextContainer h1 {
+    font-size: 2.2rem;
+  }
+
+  .firstFeatureFilmInnerContextContainer p,
+  .secondFeatureFilmInnerContextContainer p {
+    font-size: 1rem;
+    margin-bottom: 1.3em;
+  }
+
+  .firstFeatureFilmInnerContextContainer button,
+  .secondFeatureFilmInnerContextContainer button {
+    margin-block: 1em;
+  }
+}
+
+@media only screen and (max-width: 951px) {
+  .firstFeatureFilmInnerContextContainer h1,
+  .secondFeatureFilmInnerContextContainer h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .firstFeaturedFilmContainer,
+  .secondFeaturedFilmContainer {
+    flex-direction: column;
+  }
+
+  .firstFeaturedFilmContainer div,
+  .secondFeaturedFilmContainer div {
+    width: 100%;
+  }
+
+  .secondFeaturedFilmContextContainer {
+    order: 2;
+  }
+}
