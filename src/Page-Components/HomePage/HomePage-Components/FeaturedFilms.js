@@ -5,7 +5,7 @@ import './FeaturedFilms.css';
 
 function FeaturedFilms() {
   return (
-    <div>
+    <div className="featuredFilmsContainer">
       {/* First Featured Film Container*/}
       <div className="firstFeaturedFilmContainer">
         {/* First Featured Film Image Container*/}

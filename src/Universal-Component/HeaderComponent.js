@@ -23,7 +23,7 @@ function HeaderComponent() {
             <Link to="#">In theatres</Link>
           </li>
           <li key="4">
-            <Link to="#">About</Link>
+            <Link to="/About">About</Link>
           </li>
         </ul>
       </nav>

@@ -61,7 +61,7 @@ function PeoplePage() {
 
   // JSX Code
   return (
-    <div className="wrapper-2">
+    <div className="peoplepage-wrapper">
       <h1 className="mainHeader">{filmTitleSelected}</h1>
       {peoplesRetrieved && filmsRetrieved ? (
         <>

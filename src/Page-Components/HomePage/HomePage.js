@@ -1,9 +1,10 @@
 import React from 'react';
 import FeaturedFilms from './HomePage-Components/FeaturedFilms';
+import './HomePage.css';
 
 function HomePage() {
   return (
-    <div>
+    <div className="homepage-wrapper">
       <FeaturedFilms />
     </div>
   );

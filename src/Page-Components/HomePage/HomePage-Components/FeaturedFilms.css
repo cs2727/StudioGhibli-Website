@@ -1,3 +1,7 @@
+.featuredFilmsContainer {
+  margin-bottom: 2em;
+}
+
 .firstFeaturedFilmContainer,
 .secondFeaturedFilmContainer {
   display: flex;
@@ -64,6 +68,11 @@
   color: white;
   font-size: 1em;
   cursor: pointer;
+}
+
+.firstFeatureFilmInnerContextContainer button:hover,
+.secondFeatureFilmInnerContextContainer button:hover {
+  filter: brightness(80%);
 }
 
 @media only screen and (max-width: 1700px) {

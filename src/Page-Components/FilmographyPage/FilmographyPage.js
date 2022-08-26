@@ -23,7 +23,7 @@ export default function FilmographyPage() {
   }
 
   return (
-    <div className="wrapper">
+    <div className="filmographypage-wrapper">
       {/*this is the h1 element telling which directors films are being shown */}
       <h1>{filmDirector ? filmDirector : 'Studio Ghibli'} Films</h1>{' '}
       {filmsRetrieved ? (
