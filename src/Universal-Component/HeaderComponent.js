@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logo.png';
 import './HeaderComponent.css';
 
 function HeaderComponent() {
+  const navigationElement = useRef();
+  let i = 1;
+
+  function togglingNavigation() {
+    const oddOrEven = i % 2;
+
+    if (oddOrEven === 1) {
+      navigationElement.current.classList.add('responsiveNav');
+    } else {
+      navigationElement.current.classList.remove('responsiveNav');
+    }
+
+    i++;
+  }
+
   return (
     <header>
       <div className="logoContainer">
@@ -11,7 +26,7 @@ function HeaderComponent() {
           <img src={logo} alt="studio-ghibli-logo" />
         </Link>
       </div>
-      <nav>
+      <nav ref={navigationElement}>
         <ul>
           <li key="1">
             <Link to="/Filmography">Filmography</Link>
@@ -27,6 +42,12 @@ function HeaderComponent() {
           </li>
         </ul>
       </nav>
+
+      <div className="burgerMenuIconContainer" onClick={togglingNavigation}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </header>
   );
 }
