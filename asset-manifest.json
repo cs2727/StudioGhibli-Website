@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/StudioGhibli-Website/index.html/static/css/main.03ca70b1.css",
-    "main.js": "/StudioGhibli-Website/index.html/static/js/main.c5f06e25.js",
-    "static/media/FilmFeature-1.jpg": "/StudioGhibli-Website/index.html/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
-    "static/media/SpiritedHero.jpg": "/StudioGhibli-Website/index.html/static/media/SpiritedHero.7f18ea2710a7de4099cd.jpg",
-    "static/media/FilmFeature-2.jpg": "/StudioGhibli-Website/index.html/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
-    "static/media/spiritedaway.jpg": "/StudioGhibli-Website/index.html/static/media/spiritedaway.9fcca3518a0782069048.jpg",
-    "static/media/logo.png": "/StudioGhibli-Website/index.html/static/media/logo.344475453d12aaa5822a.png",
-    "static/media/animeSky.jpg": "/StudioGhibli-Website/index.html/static/media/animeSky.29dec147b2765a1151b8.jpg",
-    "index.html": "/StudioGhibli-Website/index.html/index.html",
-    "main.03ca70b1.css.map": "/StudioGhibli-Website/index.html/static/css/main.03ca70b1.css.map",
-    "main.c5f06e25.js.map": "/StudioGhibli-Website/index.html/static/js/main.c5f06e25.js.map"
+    "main.css": "/StudioGhibli-Website/static/css/main.c2fdf3e7.css",
+    "main.js": "/StudioGhibli-Website/static/js/main.7748926c.js",
+    "static/media/FilmFeature-1.jpg": "/StudioGhibli-Website/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
+    "static/media/SpiritedHero.jpg": "/StudioGhibli-Website/static/media/SpiritedHero.7f18ea2710a7de4099cd.jpg",
+    "static/media/FilmFeature-2.jpg": "/StudioGhibli-Website/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
+    "static/media/spiritedaway.jpg": "/StudioGhibli-Website/static/media/spiritedaway.9fcca3518a0782069048.jpg",
+    "static/media/logo.png": "/StudioGhibli-Website/static/media/logo.344475453d12aaa5822a.png",
+    "static/media/animeSky.jpg": "/StudioGhibli-Website/static/media/animeSky.29dec147b2765a1151b8.jpg",
+    "index.html": "/StudioGhibli-Website/index.html",
+    "main.c2fdf3e7.css.map": "/StudioGhibli-Website/static/css/main.c2fdf3e7.css.map",
+    "main.7748926c.js.map": "/StudioGhibli-Website/static/js/main.7748926c.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ca70b1.css",
-    "static/js/main.c5f06e25.js"
+    "static/css/main.c2fdf3e7.css",
+    "static/js/main.7748926c.js"
   ]
 }
