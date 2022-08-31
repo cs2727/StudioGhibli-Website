@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Stnpm/static/css/main.6600207a.css",
-    "main.js": "/Stnpm/static/js/main.0c9d960c.js",
-    "static/media/FilmFeature-1.jpg": "/Stnpm/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
-    "static/media/spiritedAwayHero.jpg": "/Stnpm/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
-    "static/media/FilmFeature-2.jpg": "/Stnpm/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
-    "static/media/spiritedaway.jpg": "/Stnpm/static/media/spiritedaway.9fcca3518a0782069048.jpg",
-    "static/media/logo.png": "/Stnpm/static/media/logo.344475453d12aaa5822a.png",
-    "static/media/animeSky.jpg": "/Stnpm/static/media/animeSky.29dec147b2765a1151b8.jpg",
-    "index.html": "/Stnpm/index.html",
-    "main.6600207a.css.map": "/Stnpm/static/css/main.6600207a.css.map",
-    "main.0c9d960c.js.map": "/Stnpm/static/js/main.0c9d960c.js.map"
+    "main.css": "/gh-pages/root/static/css/main.7d4ce175.css",
+    "main.js": "/gh-pages/root/static/js/main.4685389e.js",
+    "static/media/FilmFeature-1.jpg": "/gh-pages/root/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
+    "static/media/spiritedAwayHero.jpg": "/gh-pages/root/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
+    "static/media/FilmFeature-2.jpg": "/gh-pages/root/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
+    "static/media/spiritedaway.jpg": "/gh-pages/root/static/media/spiritedaway.9fcca3518a0782069048.jpg",
+    "static/media/logo.png": "/gh-pages/root/static/media/logo.344475453d12aaa5822a.png",
+    "static/media/animeSky.jpg": "/gh-pages/root/static/media/animeSky.29dec147b2765a1151b8.jpg",
+    "index.html": "/gh-pages/root/index.html",
+    "main.7d4ce175.css.map": "/gh-pages/root/static/css/main.7d4ce175.css.map",
+    "main.4685389e.js.map": "/gh-pages/root/static/js/main.4685389e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6600207a.css",
-    "static/js/main.0c9d960c.js"
+    "static/css/main.7d4ce175.css",
+    "static/js/main.4685389e.js"
   ]
 }
