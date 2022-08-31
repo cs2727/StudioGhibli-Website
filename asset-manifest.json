@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e49e71b1.css",
-    "main.js": "/react-gh-pages/static/js/main.a66798cd.js",
-    "static/media/FilmFeature-1.jpg": "/react-gh-pages/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
-    "static/media/spiritedAwayHero.jpg": "/react-gh-pages/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
-    "static/media/FilmFeature-2.jpg": "/react-gh-pages/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
-    "static/media/spiritedaway.jpg": "/react-gh-pages/static/media/spiritedaway.9fcca3518a0782069048.jpg",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.344475453d12aaa5822a.png",
-    "static/media/animeSky.jpg": "/react-gh-pages/static/media/animeSky.29dec147b2765a1151b8.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.e49e71b1.css.map": "/react-gh-pages/static/css/main.e49e71b1.css.map",
-    "main.a66798cd.js.map": "/react-gh-pages/static/js/main.a66798cd.js.map"
+    "main.css": "/StudioGhibli-Website/static/css/main.cd37e2af.css",
+    "main.js": "/StudioGhibli-Website/static/js/main.84f98132.js",
+    "static/media/FilmFeature-1.jpg": "/StudioGhibli-Website/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
+    "static/media/spiritedAwayHero.jpg": "/StudioGhibli-Website/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
+    "static/media/FilmFeature-2.jpg": "/StudioGhibli-Website/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
+    "static/media/spiritedaway.jpg": "/StudioGhibli-Website/static/media/spiritedaway.9fcca3518a0782069048.jpg",
+    "static/media/logo.png": "/StudioGhibli-Website/static/media/logo.344475453d12aaa5822a.png",
+    "static/media/animeSky.jpg": "/StudioGhibli-Website/static/media/animeSky.29dec147b2765a1151b8.jpg",
+    "index.html": "/StudioGhibli-Website/index.html",
+    "main.cd37e2af.css.map": "/StudioGhibli-Website/static/css/main.cd37e2af.css.map",
+    "main.84f98132.js.map": "/StudioGhibli-Website/static/js/main.84f98132.js.map"
   },
   "entrypoints": [
-    "static/css/main.e49e71b1.css",
-    "static/js/main.a66798cd.js"
+    "static/css/main.cd37e2af.css",
+    "static/js/main.84f98132.js"
   ]
 }
