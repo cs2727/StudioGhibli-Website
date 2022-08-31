@@ -62,6 +62,8 @@ footer {
   font-size: 1.2rem;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 900px) {
   .footerImgContainer div img {
     width: 80%;

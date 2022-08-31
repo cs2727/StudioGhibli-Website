@@ -75,6 +75,8 @@
   filter: brightness(80%);
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 1700px) {
   .firstFeatureFilmInnerContextContainer h1,
   .secondFeatureFilmInnerContextContainer h1 {

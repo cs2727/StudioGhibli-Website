@@ -47,7 +47,6 @@ function PeoplePage() {
       buttonContainerElement.current &&
       buttonContainerElement.current.children.length
     ) {
-      console.log(buttonContainerElement.current.children);
       buttonContainerElement.current.children[
         currentPage
       ].style.backgroundColor = 'grey';
@@ -56,7 +55,6 @@ function PeoplePage() {
 
   function handleChange(title) {
     setFilmTitle(title);
-    console.log(title);
   }
 
   // JSX Code
@@ -91,15 +89,15 @@ function PeoplePage() {
                     />
                   );
                 })}
+            <div ref={buttonContainerElement} className="buttonContainer">
+              {filmCharactersRetrieved
+                ? null
+                : // the buttons will render only if filmCharactersRetrieved is false, i'e an empty string
+                  peoplesRetrieved.map(() => {
+                    return <button onClick={peopleToRender}>{i++}</button>;
+                  })}
+            </div>
           </ul>
-          <div ref={buttonContainerElement} className="buttonContainer">
-            {filmCharactersRetrieved
-              ? null
-              : // the buttons will render only if filmCharactersRetrieved is false, i'e an empty string
-                peoplesRetrieved.map(() => {
-                  return <button onClick={peopleToRender}>{i++}</button>;
-                })}
-          </div>
         </>
       ) : (
         <h1>Loading</h1>

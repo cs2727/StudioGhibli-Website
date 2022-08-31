@@ -10,6 +10,8 @@
   font-size: 2rem;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 950px) {
   .peopleListItem {
     width: 90%;
