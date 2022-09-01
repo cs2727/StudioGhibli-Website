@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/StudioGhibli-Website/static/css/main.cd37e2af.css",
+    "main.css": "/StudioGhibli-Website/static/css/main.b59dbe34.css",
     "main.js": "/StudioGhibli-Website/static/js/main.61e6d0aa.js",
     "static/media/FilmFeature-1.jpg": "/StudioGhibli-Website/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
     "static/media/spiritedAwayHero.jpg": "/StudioGhibli-Website/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.png": "/StudioGhibli-Website/static/media/logo.344475453d12aaa5822a.png",
     "static/media/animeSky.jpg": "/StudioGhibli-Website/static/media/animeSky.29dec147b2765a1151b8.jpg",
     "index.html": "/StudioGhibli-Website/index.html",
-    "main.cd37e2af.css.map": "/StudioGhibli-Website/static/css/main.cd37e2af.css.map",
+    "main.b59dbe34.css.map": "/StudioGhibli-Website/static/css/main.b59dbe34.css.map",
     "main.61e6d0aa.js.map": "/StudioGhibli-Website/static/js/main.61e6d0aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd37e2af.css",
+    "static/css/main.b59dbe34.css",
     "static/js/main.61e6d0aa.js"
   ]
 }
