@@ -16,10 +16,10 @@ function App() {
       <FetchingDataContext>
         <FetchingPeoplesContext>
           <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/Filmography" element={<FilmographyPage />}></Route>
-            <Route path="/People" element={<PeoplePage />}></Route>
-            <Route path="/About" element={<AboutPage />}></Route>
+            <Route path="" element={<HomePage />}></Route>
+            <Route path="Filmography" element={<FilmographyPage />}></Route>
+            <Route path="People" element={<PeoplePage />}></Route>
+            <Route path="About" element={<AboutPage />}></Route>
           </Routes>
         </FetchingPeoplesContext>
       </FetchingDataContext>
