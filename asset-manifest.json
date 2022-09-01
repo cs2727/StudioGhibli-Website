@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/StudioGhibli-Website/static/css/main.cd37e2af.css",
-    "main.js": "/StudioGhibli-Website/static/js/main.84f98132.js",
-    "static/media/FilmFeature-1.jpg": "/StudioGhibli-Website/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
-    "static/media/spiritedAwayHero.jpg": "/StudioGhibli-Website/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
-    "static/media/FilmFeature-2.jpg": "/StudioGhibli-Website/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
-    "static/media/spiritedaway.jpg": "/StudioGhibli-Website/static/media/spiritedaway.9fcca3518a0782069048.jpg",
-    "static/media/logo.png": "/StudioGhibli-Website/static/media/logo.344475453d12aaa5822a.png",
-    "static/media/animeSky.jpg": "/StudioGhibli-Website/static/media/animeSky.29dec147b2765a1151b8.jpg",
-    "index.html": "/StudioGhibli-Website/index.html",
-    "main.cd37e2af.css.map": "/StudioGhibli-Website/static/css/main.cd37e2af.css.map",
-    "main.84f98132.js.map": "/StudioGhibli-Website/static/js/main.84f98132.js.map"
+    "main.css": "/static/css/main.fa87d70d.css",
+    "main.js": "/static/js/main.99dc4a53.js",
+    "static/media/FilmFeature-1.jpg": "/static/media/FilmFeature-1.6b9252ca93ca8592339d.jpg",
+    "static/media/spiritedAwayHero.jpg": "/static/media/spiritedAwayHero.7f18ea2710a7de4099cd.jpg",
+    "static/media/FilmFeature-2.jpg": "/static/media/FilmFeature-2.619a7f9e377c1b3e7b59.jpg",
+    "static/media/spiritedaway.jpg": "/static/media/spiritedaway.9fcca3518a0782069048.jpg",
+    "static/media/logo.png": "/static/media/logo.344475453d12aaa5822a.png",
+    "static/media/animeSky.jpg": "/static/media/animeSky.29dec147b2765a1151b8.jpg",
+    "index.html": "/index.html",
+    "main.fa87d70d.css.map": "/static/css/main.fa87d70d.css.map",
+    "main.99dc4a53.js.map": "/static/js/main.99dc4a53.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd37e2af.css",
-    "static/js/main.84f98132.js"
+    "static/css/main.fa87d70d.css",
+    "static/js/main.99dc4a53.js"
   ]
 }
