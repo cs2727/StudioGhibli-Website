@@ -4,3 +4,5 @@ order to make requests and use the returned data to populate certain webpages (f
 people) with the relevant data (films, characters) that the user can query through via a drop-down
 list.
 This web-application is also web-responsive.
+
+Here is the URL link for this web-app as it is hosted by Github IO - https://cs2727.github.io/StudioGhibli-Website/ 
